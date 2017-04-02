@@ -1,0 +1,52 @@
+:global{
+
+  @import '../../style/variable';
+
+  .order {
+    &__list {
+      margin-top: 2em;
+      & > *:last-child {
+        border-bottom: 1px solid $color-border;
+      }
+    }
+
+    &__row:nth-child(2n+1) {
+      background: rgb(238,238,238);
+    }
+
+    &__row:last-child {
+      border-bottom: 1px solid $color-border;
+    }
+
+    &__row {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      & > div {
+        border-left: 1px solid $color-border;
+      }
+      & > div:last-child {
+        border-right: 1px solid $color-border;
+      }
+      &:hover {
+        background: darken($color-row, 10%);
+      }
+    }
+  }
+
+  .bill {
+    &_row {}
+    &__total {
+      padding: 1em;
+      margin-top: .5em;
+      border: 1px solid $color-border;
+      text-align: center;
+    }
+    &__total-tax {
+      display: inline-block;
+    }
+    &__total-price {
+      display: inline-block;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+:global {
+
+  @import '../style/variable';
+  .header {
+    &__title-list {
+      border-top: 1px solid $color-border;
+      background: rgb(123, 198, 216);
+    }
+
+    &__title {
+      white-space:nowrap;
+      border-left: 1px solid $color-border;
+      font-weight: 500;
+    }
+
+    &__title:last-child {
+      border-right: 1px solid $color-border;
+    }
+  }
+}

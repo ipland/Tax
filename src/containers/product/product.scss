@@ -1,0 +1,45 @@
+:global{
+  @import '../../style/variable';
+
+  .product {
+    &__list {
+      margin-bottom: 1em;
+      & > *:last-child {
+        border-bottom: 1px solid $color-border;
+      }
+    }
+
+    &__row:nth-child(2n+1) {
+      background: $color-row;
+    }
+
+    &__row:last-child {
+      border-bottom: 1px solid $color-border;
+    }
+
+    &__row {
+      & > div {
+        border-left: 1px solid $color-border;
+      }
+      & > div:last-child {
+        border-right: 1px solid $color-border;
+      }
+      // &:hover {
+      //   background: darken($color-row, 10%);
+      // }
+    }
+
+    &__quantity-input {
+      height: 80%;
+      width: 75%;
+    }
+
+    &__action-add {
+      position: relative;
+      color: darken($color-secondary, 10%);
+      text-decoration: underline;
+      &:active { top: 1px; }
+    }
+  }
+
+}

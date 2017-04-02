@@ -1,0 +1,110 @@
+{
+  "productList": [
+    {
+      "id": 1,
+      "name": "book",
+      "price": 12.49,
+      "category": "books",
+      "imported": false,
+      "single": "",
+      "plural": ""
+    },
+    {
+      "id": 2,
+      "name": "music CD",
+      "price": 14.99,
+      "category": "",
+      "imported": false,
+      "single": "",
+      "plural": ""
+    },
+    {
+      "id": 3,
+      "name": "chocolate bar",
+      "price": 0.85,
+      "category": "food",
+      "imported": false,
+      "single": "",
+      "plural": ""
+    },
+    {
+      "id": 4,
+      "name": "imported box of chocolates",
+      "price": 10.00,
+      "category": "food",
+      "imported": true,
+      "single": "",
+      "plural": ""
+    },
+    {
+      "id": 5,
+      "name": "imported bottle of perfume",
+      "price": 47.50,
+      "category": "cosmetic",
+      "imported": true,
+      "single": "",
+      "plural": ""
+    },
+    {
+      "id": 6,
+      "name": "imported bottle of perfume",
+      "price": 27.99,
+      "category": "cosmetic",
+      "imported": true,
+      "single": "",
+      "plural": ""
+    },
+    {
+      "id": 7,
+      "name": "bottle of perfume",
+      "price": 18.99,
+      "category": "cosmetic",
+      "imported": false,
+      "single": "",
+      "plural": ""
+    },
+    {
+      "id": 8,
+      "name": "packet of headache pills",
+      "price": 9.75,
+      "category": "medical products",
+      "imported": false,
+      "single": "",
+      "plural": ""
+    },
+    {
+      "id": 9,
+      "name": "box of imported chocolates",
+      "price": 11.25,
+      "category": "food",
+      "imported": true,
+      "single": "",
+      "plural": ""
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "quantity": 12
+    }
+  ],
+  "checkout": [
+    {
+      "id": 1,
+      "price": 10.12,
+      "priceExTax": 12.89,
+      "tax": 0.15
+    }
+  ],
+  "taxList": [
+    {
+      "name": "basic",
+      "rateOfTax": 0.10
+    },
+    {
+      "name": "imported",
+      "rateOfTax": 0.05
+    }
+  ],
+  "taxFree": [ "books", "food", "medical products" ]
+}

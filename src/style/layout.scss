@@ -1,0 +1,26 @@
+:global {
+
+@import 'variable';
+
+body {
+  display: flex;
+  justify-content: center;
+  background: $color-primary;
+}
+
+.app--center {
+  margin-top: 80px;
+  width: 44em;
+}
+
+.btn-checkout {
+  position: relative;
+  border: 1px solid $color-border;
+  border-radius: 2px;
+  background: $color-primary;
+  cursor: pointer;
+  &:hover { background: darken($color-primary, 3%); }
+  &:active { top: 1px; }
+}
+
+}
