@@ -5,11 +5,11 @@
 Prerequisites: [Node.js](https://nodejs.org/en/) (>=4.x, 6.x preferred), npm version 3+ and [Git](https://git-scm.com/).
 
 ```bash
-# Clone datamarginTax
-git clone git@github.com:ipland/datamarginTax.git
+# Clone Tax
+git clone git@github.com:ipland/Tax.git
 
 # Enter the main repository
-cd datamarginTax
+cd Tax
 
 # install dependencies
 npm install
